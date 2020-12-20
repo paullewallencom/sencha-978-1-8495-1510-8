@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# Simple Address Book v1.7
+
+CACHE:
+index2.html
+app/app2.js
+css/my-app-offline.css
+lib/resources/css/sencha-touch.css
+lib/sencha-touch.js
+
+# Everything else requires us to be online.
+NETWORK:
+*
+
+FALLBACK:
+css/my-app.css css/my-app-offline.css
